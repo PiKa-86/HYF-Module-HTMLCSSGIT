@@ -14,29 +14,24 @@
 
   <body>
     <header>
-      
-   
-
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-#FFF0E5 navbar-light fixed-top">
+    
+      <nav class="navbar navbar-expand-lg navbar-light bg-#FFF0E5">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img id="logo" src="https://cdn.freebiesupply.com/logos/large/2x/codecademy-logo-black-and-white.png">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#"><img id="logo" src="https://cdn.freebiesupply.com/logos/large/2x/codecademy-logo-black-and-white.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">Catalog</a>
               </li>
               
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Resources
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                   <li><a class="dropdown-item" href="#">Docs</a></li>
                   <li><a class="dropdown-item" href="#">Cheatsheets</a></li>
                   <li><a class="dropdown-item" href="#">Projects</a></li>
@@ -46,10 +41,10 @@
               </li>
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Community
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                   <li><a class="dropdown-item" href="#">Forums</a></li>
                   <li><a class="dropdown-item" href="#">Chat</a></li>
                   <li><a class="dropdown-item" href="#">Chapters</a></li>
@@ -59,10 +54,10 @@
               </li>
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Pre Pricing
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                   <li><a class="dropdown-item" href="#">For Individuals</a></li>
                   <li><a class="dropdown-item" href="#">For Students</a></li>
                 </ul>
@@ -73,7 +68,7 @@
               </li>
 
             </ul>
-            <form class="d-flex">
+            <form class="d-flex flex-sm-row">
               <button class="btn btn-#FFF0E5" type="submit"><i class="fas fa-search"></i></button>
               <button class="btn btn-outline-none text-primary fw-bold" type="submit">Log in</button>
             </form>
@@ -89,11 +84,11 @@
       <div class="container">
         <section class="first-section">
         <div class="grid" >
-          <div class="row d-flex justify-content-around">
+          <div class="row d-flex justify-content-center">
             <div class="col col-md-6">
                 <img src="https://www.codecademy.com/webpack/01b4bd787ae0997f25109be2e7963559.png" class="img-fluid">
             </div>
-            <div class="col col-md-6 ">
+            <div class="col col-md-5 ">
               <form>
                 <h4 class="fw-bold lh-base">Join the millions learning to code with Codecademy for free</h4>
                 <div class="mb-3">
@@ -123,7 +118,7 @@
                 </div>
               
                 <div class="icon-boxes">
-                  <a href="icons"><img class="google-icon" src="https://img.icons8.com/color/48/000000/google-logo.png"/></a>
+                  <a href="icons"><i class="fab fa-google"></i></a>
                 </div>
               
                 <div class="icon-boxes">
@@ -158,15 +153,15 @@
       <section class="third-section">
         <div class="head-container">
           <h2>Get inspired</h2>
-          <div class="text-container">
+          <div class="text-container .d-md-inline-flex flex-wrap">
             <p class="text-content">See stories from the Codecademy community.</p>
             <a class="explore-link">Explore more stories &rarr;</a>
           </div>
         </div>
 
-        <div class="container">
+        <div class="container-md">
 
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="row row-cols-1 row-cols-md-4 g-3 ">
           <div class="col col-lg-3 col-md-6">
               <a class="card-link" href="https://www.codecademy.com/learner-stories/software-engineering/2MO8kzxJNYEMAMnzkobseL">
                 <div class="card">
@@ -250,7 +245,7 @@
       <div class="container">
         <div class="grid">
           <div class="row">
-            <div class="col-6 left-side-grid">
+            <div class="col-lg-6 col-sm-12 left-side-grid">
               <div class="row">
                 <div class="col-4">
                   <h2>COMPANY</h2>
@@ -331,7 +326,7 @@
               </div>
             </div>
 
-            <div class="col-6 right-side-grid">
+            <div class="col-lg-6 col-sm-12 right-side-grid">
               <div class="row">
                 <div class="col-6 catalog-links">
                     <h2>Course Catalog</h2>
