@@ -73,6 +73,7 @@ main{
     padding-top: 75px;
 }
 
+/*First section style*/
 .grid img{
     padding-top: 4px;
     padding-bottom: 4px;
@@ -116,8 +117,6 @@ main{
 
 }
 
-
-
 .icons{
     font-weight: 700;
     font-size: 20px;
@@ -136,7 +135,7 @@ main{
 }
 
 
-
+/*Second section style*/
 .second-section{
     background-color:#ffd900;
     display:block;
@@ -191,15 +190,12 @@ main{
     line-height: 1.1;
 }
 
+/*third section style*/
 
 .head-container{
-    padding-left: 115px;
-    padding-right: 115px;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 1440px;
-    margin-bottom: 2rem;
-    padding-top: 4rem;
+    margin-bottom: 32px;
+    padding-top: 50px;
     width: 100%;
 }
 
@@ -215,6 +211,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .text-content{
@@ -382,7 +379,7 @@ footer .grid {
 }
 
 .app-imgs{
-    width: 120px;
+    width: 100%;
 }
 
 footer h2{
@@ -469,6 +466,7 @@ footer a{
 
     .grid{
         padding: 55px;
+        padding-top: 0px;
     }
 
     .catalog-links{
@@ -493,25 +491,33 @@ footer a{
     .right-side-grid{
         border-left: 1px solid #10162f;
     }
+
+    .head-container{
+        padding-left: 115px;
+        padding-right: 115px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 
 /* Desktop media screen style end here */       
     
 /*tablet media screen start here*/
-@media screen and (max-width: 1024px) and (min-width: 600px){
+@media screen and (max-width: 1024px) and (min-width: 768px){
     .container-fluid{
         padding-left: 60px;
         padding-right: 60px;
     }
     
     .grid img{
-        margin-top: 120px;  
+        margin-top: 70px;
+        margin-right: 0;  
     }
 
-
     .jumbotron-container{
-        padding: 40px;
+        padding: 60px;
         display:flex;
         flex-direction:row;
         justify-content: space-around;
@@ -519,10 +525,7 @@ footer a{
         box-sizing: border-box;
     }
     
-    .quiz-img{
-        max-width: 20rem;
-    }   
-    
+      
     
     .boxes{
         display: flex;
@@ -555,6 +558,17 @@ footer a{
     .right-side-grid{
         border-top: 1px solid #10162f;
     }
+
+    .head-container{
+        padding-left: 60px;
+        padding-right: 60px;
+        
+    }
+
+    .app-imgs{
+        width: 50px;
+        height: auto;
+    }
 }
     
     
@@ -564,14 +578,7 @@ footer a{
 /*tablet media screen end here*/
 
 /*mobile media screen start here*/
-@media screen and (max-width: 600px){
-    .d-flex{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-    }
+@media screen and (max-width: 768px){
     .grid{
 
         padding: 50px;
@@ -626,9 +633,16 @@ footer a{
         text-align: center;
     
     }
+
+    .card{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
+    .head-container{
+        padding-left: 35px;
+
+    }
 }
 
 /*mobile media screen style end here*/
-
-
-
