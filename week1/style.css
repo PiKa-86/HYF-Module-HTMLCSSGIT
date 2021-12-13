@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended+Text&display=swap');
+@font-face {
+  font-family: 'Libre Barcode 39 Extended Text';
+  src: url(/fonts/LibreBarcode39ExtendedText-Regular.ttf);
+}
 
 *{
     scroll-behavior: smooth;
@@ -43,6 +46,7 @@ a{
 .head-container h1{
     color: rgb(255, 136, 0);
     padding: 5px;
+    margin-bottom: 25px;
 }
 
 .navbarlist{
@@ -62,6 +66,13 @@ a{
 
 .navlink{
   color: #85FFBD;
+}
+
+.baricode-name {
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  font-size: 44px;
+  color: #eee;
+  margin-bottom: -35px;
 }
 
 .right-side{
